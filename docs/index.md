@@ -1,13 +1,34 @@
+<script setup>
+import LargeParagraph from './components/LargeParagraph.vue';
+</script>
+
 # Vue Tachyons Directives Plugin
 
-Experimental & not-so-smart plugin for Vue.js 3.x to use
-[Tachyons CSS UI Kit](https://tachyons.io/) selectors as v-directives
-inside components.
+Plugin for Vue.js 3.x to use Tachyons CSS UI Kit selectors
+as directives in components. 
+
+::: info
+Directives documentation with examples is not fully ready yet and is under construction.
+
+Checkout finished sections at sidebar on the left. 
+:::
+
+::: tip
+Supported version of Tachyons CSS is **4.12.0**.
+:::
 
 ## Installation
 
+### NPM
+
 ```bash
 npm i tachyons github:super16/vue-tachyons-directives-plugin
+```
+
+### Yarn
+
+```bash
+yarn add tachyons github:super16/vue-tachyons-directives-plugin
 ```
 
 ## Usage
@@ -55,12 +76,11 @@ You can use v-directives like that:
 </template>
 ```
 
-All class selectors modifiers such as `copy` in `lh-copy` can be added like v-directive modifier: `v-lh.copy`.
+<LargeParagraph />
 
-## Documentation
-
-Checkout [here](https://super16.github.io/vue-tachyons-directives-plugin/) (🚧 Under Construction).
+All class selectors modifiers such as `copy` in `lh-copy` can be added like
+v-directive modifier: `v-lh.copy`.
 
 ## License
 
-[MIT](./LICENSE)
+[MIT](https://github.com/super16/vue-tachyons-directives-plugin/blob/main/LICENSE)
