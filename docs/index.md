@@ -4,8 +4,8 @@ import LargeParagraph from './components/LargeParagraph.vue';
 
 # Vue Tachyons Directives Plugin
 
-Plugin for Vue.js 3.x to use Tachyons CSS UI Kit selectors
-as directives in components. 
+Plugin for Vue.js 3.x to use [Tachyons CSS UI Kit](https://tachyons.io/)
+selectors as directives in components. 
 
 ::: info
 Directives documentation with examples is not fully ready yet and is under construction.
@@ -80,6 +80,8 @@ You can use v-directives like that:
 
 All class selectors modifiers such as `copy` in `lh-copy` can be added like
 v-directive modifier: `v-lh.copy`.
+
+![Stupid picture](assets/stupid-picture.png)
 
 ## License
 

@@ -57,6 +57,9 @@ You can use v-directives like that:
 
 All class selectors modifiers such as `copy` in `lh-copy` can be added like v-directive modifier: `v-lh.copy`.
 
+![Stupid picture](docs/assets/stupid-picture-dark.png#gh-dark-mode-only)
+![Stupid picture](docs/assets/stupid-picture.png#gh-light-mode-only)
+
 ## Documentation
 
 Checkout [here](https://super16.github.io/vue-tachyons-directives-plugin/) (🚧 Under Construction).
