@@ -31,6 +31,10 @@ function docsSidebar() {
           link: 'layout/basic-grid',
           text: 'Basic Grid', 
         },
+        {
+          link: 'layout/floats',
+          text: 'Floats', 
+        },
       ],
     },
   ]
