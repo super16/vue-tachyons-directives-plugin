@@ -32,6 +32,10 @@ function docsSidebar() {
           text: 'Basic Grid', 
         },
         {
+          link: 'layout/clearfix',
+          text: 'Clearfix', 
+        },
+        {
           link: 'layout/floats',
           text: 'Floats', 
         },

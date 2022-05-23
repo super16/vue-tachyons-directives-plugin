@@ -57,6 +57,10 @@ Originally floats were used to wrap text around images as in the example below.
 
 <ImageExample />
 
+### See Also
+
+* [Clearfix](./clearfix.md)
+
 ## Reference
 
 * [Floats Source Docs | Tachyons](https://tachyons.io/docs/layout/floats/)
