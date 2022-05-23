@@ -24,10 +24,6 @@ change and few additions for 400 years… This is the typographic equivalent of 
 
 —Robert Bringhurst, *The Elements of Typographic Style*
 
-## Tachyons Source Docs
-
-[Type Scale](https://tachyons.io/docs/typography/scale/)
-
 ## Directive
 
 Use `v-f` directive to scale text. Directive allowed values are from `1` to `6`,
@@ -43,3 +39,8 @@ also there're two modifiers: `headline` and `subheadline`.
 ## Examples
 
 <TypeScale />
+
+## Reference
+
+* [Type Scale Source Docs | Tachyons](https://tachyons.io/docs/typography/scale/)
+* [font-size | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)

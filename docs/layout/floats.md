@@ -16,10 +16,6 @@ There are only three values that can be declared for float: `left`, `right`, or 
 These three base classes are very easy to memorize: `v-fl`, `v-fr`, `v-fn`.
 Combine float left/right with width utilities to create fluid multi-column layouts.
 
-## Tachyons Source Docs
-
-[Floats](https://tachyons.io/docs/layout/floats/)
-
 ## Examples
 
 ### Float Left
@@ -60,3 +56,8 @@ Originally floats were used to wrap text around images as in the example below.
 ```
 
 <ImageExample />
+
+## Reference
+
+* [Floats Source Docs | Tachyons](https://tachyons.io/docs/layout/floats/)
+* [float | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/float)
