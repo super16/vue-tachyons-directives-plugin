@@ -22,6 +22,10 @@ function docsSidebar() {
           link: 'typography/type-scale',
           text: 'Type Scale', 
         },
+        {
+          link: 'typography/text-align',
+          text: 'Text Align', 
+        },
       ],
     },
     {
@@ -38,6 +42,19 @@ function docsSidebar() {
         {
           link: 'layout/floats',
           text: 'Floats', 
+        },
+      ],
+    },
+    {
+      text: 'Elements',
+      children: [
+        {
+          link: 'elements/lists',
+          text: 'Lists', 
+        },
+        {
+          link: 'elements/forms',
+          text: 'Forms', 
         },
       ],
     },
