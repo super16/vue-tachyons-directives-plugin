@@ -46,6 +46,19 @@ function docsSidebar() {
       ],
     },
     {
+      text: 'Theming',
+      children: [
+        {
+          link: 'theming/box-shadow',
+          text: 'Box Shadow', 
+        },
+        {
+          link: 'theming/border-radius',
+          text: 'Border Radius', 
+        },
+      ],
+    },
+    {
       text: 'Elements',
       children: [
         {
