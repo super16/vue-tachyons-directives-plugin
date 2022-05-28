@@ -62,12 +62,24 @@ function docsSidebar() {
       text: 'Elements',
       children: [
         {
+          link: 'elements/forms',
+          text: 'Forms', 
+        },
+        {
+          link: 'elements/images',
+          text: 'Images', 
+        },
+        {
+          link: 'elements/links',
+          text: 'Links', 
+        },
+        {
           link: 'elements/lists',
           text: 'Lists', 
         },
         {
-          link: 'elements/forms',
-          text: 'Forms', 
+          link: 'elements/tables',
+          text: 'Tables', 
         },
       ],
     },
