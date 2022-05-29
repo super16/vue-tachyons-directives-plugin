@@ -81,7 +81,7 @@ You can use v-directives like that:
 All class selectors modifiers such as `copy` in `lh-copy` can be added like
 v-directive modifier: `v-lh.copy`.
 
-![Stupid picture](assets/stupid-picture.png)
+![Stupid picture](/stupid-picture.png)
 
 ## License
 
