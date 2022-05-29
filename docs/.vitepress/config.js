@@ -49,12 +49,24 @@ function docsSidebar() {
       text: 'Theming',
       children: [
         {
-          link: 'theming/box-shadow',
-          text: 'Box Shadow', 
+          link: 'theming/background-size',
+          text: 'Background Size', 
         },
         {
           link: 'theming/border-radius',
           text: 'Border Radius', 
+        },
+        {
+          link: 'theming/box-shadow',
+          text: 'Box Shadow', 
+        },
+        {
+          link: 'theming/hovers',
+          text: 'Hovers', 
+        },
+        {
+          link: 'theming/opacity',
+          text: 'Opacity', 
         },
       ],
     },
