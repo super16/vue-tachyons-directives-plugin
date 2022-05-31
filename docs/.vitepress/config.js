@@ -19,12 +19,20 @@ function docsSidebar() {
       text: 'Typography',
       children: [
         {
-          link: 'typography/type-scale',
-          text: 'Type Scale', 
-        },
-        {
           link: 'typography/text-align',
           text: 'Text Align', 
+        },
+        {
+          link: 'typography/text-transform',
+          text: 'Text Transform', 
+        },
+        {
+          link: 'typography/tracking',
+          text: 'Tracking', 
+        },
+        {
+          link: 'typography/type-scale',
+          text: 'Type Scale', 
         },
       ],
     },
