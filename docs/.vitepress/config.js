@@ -19,6 +19,10 @@ function docsSidebar() {
       text: 'Typography',
       children: [
         {
+          link: 'typography/font-style',
+          text: 'Font Style', 
+        },
+        {
           link: 'typography/text-align',
           text: 'Text Align', 
         },
