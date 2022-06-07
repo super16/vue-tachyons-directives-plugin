@@ -3,6 +3,13 @@ module.exports = {
   lang: 'en-US',
   title: 'Vue Tachyons Directives Plugin',
   description: 'Plugin for Vue.js 3.x to use Tachyons CSS UI Kit',
+  head: [
+    ['link', {
+      rel: 'icon',
+      type: 'image/x-icon',
+      href: '/vue-tachyons-directives-plugin/favicon.ico'
+    }],
+  ],
   themeConfig: {
     repo: 'super16/vue-tachyons-directives-plugin',
     docsDir: 'docs',
