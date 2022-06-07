@@ -3,8 +3,6 @@ import ItalicsStyle from '../components/font-style/ItalicsStyle.vue';
 import RegularStyle from '../components/font-style/RegularStyle.vue';
 </script>
 
-
-
 # Font Style
 
 Single purpose classes to set the font-style of any element
@@ -37,5 +35,5 @@ letters of the alphabet, scientific terms, and quotes.
 
 ## Reference
 
-* [Font Style Source Docs | Tachyons](http://tachyons.io/docs/typography/font-style/)
+* [Font Style Source Docs | Tachyons](https://tachyons.io/docs/typography/font-style/)
 * [font-style | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style)

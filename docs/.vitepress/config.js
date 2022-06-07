@@ -23,8 +23,16 @@ function docsSidebar() {
           text: 'Font Style', 
         },
         {
+          link: 'typography/font-weight',
+          text: 'Font Weight', 
+        },
+        {
           link: 'typography/text-align',
           text: 'Text Align', 
+        },
+        {
+          link: 'typography/text-decoration',
+          text: 'Text Decoration', 
         },
         {
           link: 'typography/text-transform',
