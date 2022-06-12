@@ -26,12 +26,20 @@ function docsSidebar() {
       text: 'Typography',
       children: [
         {
+          link: 'typography/font-family',
+          text: 'Font Family', 
+        },
+        {
           link: 'typography/font-style',
           text: 'Font Style', 
         },
         {
           link: 'typography/font-weight',
           text: 'Font Weight', 
+        },
+        {
+          link: 'typography/line-height',
+          text: 'Line Height', 
         },
         {
           link: 'typography/measure',
