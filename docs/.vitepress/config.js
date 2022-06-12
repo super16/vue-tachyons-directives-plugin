@@ -34,6 +34,10 @@ function docsSidebar() {
           text: 'Font Weight', 
         },
         {
+          link: 'typography/measure',
+          text: 'Measure', 
+        },
+        {
           link: 'typography/text-align',
           text: 'Text Align', 
         },
