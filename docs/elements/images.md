@@ -13,11 +13,13 @@ In some situations, this will make the image stretch to be larger than
 its actual width. To avoid the image stretching past its width, set max-width instead.
 
 ```vue
-<img
-  v-w.100
-  alt="night sky over land"
-  src="https://tachyons.io/img/over-canvas.jpg"
->
+<template>
+  <img
+    v-w.100
+    alt="night sky over land"
+    src="https://tachyons.io/img/over-canvas.jpg"
+  >
+</template>
 ```
 
 <WideImage />
@@ -26,11 +28,13 @@ The image below is 720 pixels wide, it will fill its container until the contain
 is wider than 720 pixels.
 
 ```vue
-<img
-  v-mw.100
-  alt="night sky over water"
-  src="https://tachyons.io/img/under-canvas.jpg"
->
+<template>
+  <img
+    v-mw.100
+    alt="night sky over water"
+    src="https://tachyons.io/img/under-canvas.jpg"
+  >
+</template>
 ```
 
 <NormalImage />

@@ -1,5 +1,7 @@
 <template>
-  <span class="f-headline tracked-tight mv4 system-serif">title example</span>
+  <span class="db f-headline mv4 system-serif tracked-tight">
+    title example
+  </span>
 </template>
 
 <script>

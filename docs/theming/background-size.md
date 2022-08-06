@@ -17,7 +17,9 @@ Directive `v-contain` will make sure that the entire image is displayed
 within the element, regardless of the elements dimensions.
 
 ```vue
-<div v-contain></div>
+<template>
+  <div v-contain></div>
+</template>
 ```
 
 <ContainSize />
@@ -28,7 +30,9 @@ Directive `v-cover` will make sure the entire element is covered.
 But won’t guarantee that the entire image will be shown.
 
 ```vue
-<div v-cover></div>
+<template>
+  <div v-cover></div>
+</template>
 ```
 
 <CoverSize />

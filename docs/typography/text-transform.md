@@ -16,7 +16,11 @@ it with a [tracking utility](./tracking.md).
 ### Uppercase
 
 ```vue
-<p v-tracked v-ttu>Uppercase</p>
+<template>
+  <p v-tracked v-ttu>
+    Uppercase
+  </p>
+</template>
 ```
 
 <UppercaseTransform />
@@ -24,7 +28,9 @@ it with a [tracking utility](./tracking.md).
 ### Lowercase
 
 ```vue
-<p v-ttl>LOWERCASE</p>
+<template>
+  <p v-ttl>LOWERCASE</p>
+</template>
 ```
 
 <LowercaseTransform />
@@ -32,7 +38,11 @@ it with a [tracking utility](./tracking.md).
 ### Capitalize
 
 ```vue
-<p v-ttc>capitalize multiple words</p>
+<template>
+  <p v-ttc>
+    capitalize multiple words
+  </p>
+</template>
 ```
 
 <CapitalizeTransform />

@@ -21,10 +21,12 @@ It should be noted you don’t have to clear floated elements that are
 inside another floated element.
 
 ```vue
-<div v-cf>
-  <div v-fl></div>
-  <div v-fl></div>
-</div>
+<template>
+  <div v-cf>
+    <div v-fl></div>
+    <div v-fl></div>
+  </div>
+</template>
 ```
 
 <ClearedFloats />
@@ -32,10 +34,12 @@ inside another floated element.
 ### UnCleared Floats
 
 ```vue
-<div>
-  <div v-fl></div>
-  <div v-fl></div>
-</div>
+<template>
+  <div>
+    <div v-fl></div>
+    <div v-fl></div>
+  </div>
+</template>
 ```
 
 <UnClearedFloats />

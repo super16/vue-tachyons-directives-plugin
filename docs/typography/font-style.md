@@ -17,10 +17,12 @@ Some common uses of italics include: titles, vehicle names,
 letters of the alphabet, scientific terms, and quotes.
 
 ```vue
-<p v-i>
-  Readers want what is important to be clearly laid out;
-  they will not read what is too troublesome.
-</p>
+<template>
+  <p v-i>
+    Readers want what is important to be clearly laid out;
+    they will not read what is too troublesome.
+  </p>
+</template>
 ```
 
 <ItalicsStyle />
@@ -28,7 +30,11 @@ letters of the alphabet, scientific terms, and quotes.
 ### Regular
 
 ```vue
-<p v-fs-normal>A quote from Jan Tschichold about typography.</p>
+<template>
+  <p v-fs-normal>
+    A quote from Jan Tschichold about typography.
+  </p>
+</template>
 ```
 
 <RegularStyle />

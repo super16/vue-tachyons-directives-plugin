@@ -19,7 +19,9 @@ right, or center of an element.
 ### Aligned Left
 
 ```vue
-<p v-tl>Aligned Left</p>
+<template>
+  <p v-tl>Aligned Left</p>
+</template>
 ```
 
 <AlignedLeft />
@@ -27,7 +29,9 @@ right, or center of an element.
 ### Aligned Right
 
 ```vue
-<p v-tr>Aligned Right</p>
+<template>
+  <p v-tr>Aligned Right</p>
+</template>
 ```
 
 <AlignedRight />
@@ -35,7 +39,9 @@ right, or center of an element.
 ### Aligned Center
 
 ```vue
-<p v-tc>Aligned Center</p>
+<template>
+  <p v-tc>Aligned Center</p>
+</template>
 ```
 
 <AlignedCenter />
@@ -43,7 +49,9 @@ right, or center of an element.
 ### Justified Alignment
 
 ```vue
-<p v-tj>Justified Alignment</p>
+<template>
+  <p v-tj>Justified Alignment</p>
+</template>
 ```
 
 <JustifiedAlignment />

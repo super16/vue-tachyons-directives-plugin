@@ -38,12 +38,14 @@ system fonts. That's why examples can look alike.
 ### Default System Sans Serif
 
 ```vue
-<p v-system-sans-serif>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-system-sans-serif>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <SystemSansSerif />
@@ -51,12 +53,14 @@ system fonts. That's why examples can look alike.
 ### Default System Serif
 
 ```vue
-<p v-system-serif>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-system-serif>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <SystemSerif />
@@ -64,12 +68,14 @@ system fonts. That's why examples can look alike.
 ### System Sans Serif with Fallbacks
 
 ```vue
-<p v-sans-serif>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-sans-serif>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <SansSerif />
@@ -77,16 +83,18 @@ system fonts. That's why examples can look alike.
 ### Consolas, monaco
 
 ::: info
-Fallback to system monospace.
+Fallbacks to system monospace font.
 :::
 
 ```vue
-<p v-code>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-code>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <MonospaceFont />
@@ -94,16 +102,18 @@ Fallback to system monospace.
 ### Courier
 
 ::: info
-Fallback to system monospace.
+Fallbacks to system monospace font.
 :::
 
 ```vue
-<p v-courier>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-courier>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <CourierFont />
@@ -111,16 +121,18 @@ Fallback to system monospace.
 ### Helvetica
 
 ::: info
-Fallback to system sans-serif.
+Fallbacks to system sans-serif font.
 :::
 
 ```vue
-<p v-helvetica>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-helvetica>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <HelveticaFont />
@@ -128,16 +140,18 @@ Fallback to system sans-serif.
 ### Avenir
 
 ::: info
-Fallback to system sans-serif.
+Fallbacks to system sans-serif font.
 :::
 
 ```vue
-<p v-avenir>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-avenir>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <AvenirFont />
@@ -145,16 +159,18 @@ Fallback to system sans-serif.
 ### Athelas
 
 ::: info
-Fallback to system serif.
+Fallbacks to system serif font.
 :::
 
 ```vue
-<p v-athelas>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-athelas>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <AthelasFont />
@@ -162,16 +178,18 @@ Fallback to system serif.
 ### Georgia
 
 ::: info
-Fallback to system serif.
+Fallbacks to system serif font.
 :::
 
 ```vue
-<p v-georgia>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-georgia>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <GeorgiaFont />
@@ -179,16 +197,18 @@ Fallback to system serif.
 ### Times
 
 ::: info
-Fallback to system serif.
+Fallbacks to system serif font.
 :::
 
 ```vue
-<p v-times>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-times>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <TimesFont />
@@ -196,16 +216,18 @@ Fallback to system serif.
 ### Bodoni MT
 
 ::: info
-Fallback to system serif.
+Fallbacks to system serif font.
 :::
 
 ```vue
-<p v-bodoni>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-bodoni>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <BodoniFont />
@@ -213,16 +235,18 @@ Fallback to system serif.
 ### Calisto
 
 ::: info
-Fallback to system serif.
+Fallbacks to system serif font.
 :::
 
 ```vue
-<p v-calisto>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-calisto>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <CalistoFont />
@@ -230,16 +254,18 @@ Fallback to system serif.
 ### Garamond
 
 ::: info
-Fallback to system serif.
+Fallbacks to system serif font.
 :::
 
 ```vue
-<p v-garamond>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-garamond>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <GaramondFont />
@@ -247,16 +273,18 @@ Fallback to system serif.
 ### Baskerville
 
 ::: info
-Fallback to system serif.
+Fallbacks to system serif font.
 :::
 
 ```vue
-<p v-baskerville>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-baskerville>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <BaskervilleFont />

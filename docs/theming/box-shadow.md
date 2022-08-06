@@ -10,7 +10,9 @@ Feel free to customize if they do not suit your needs.
 ## Examples
 
 ```vue
-<div v-shadow.1></div>
+<template>
+  <div v-shadow.1></div>
+</template>
 ```
 
 <BoxShadow />

@@ -35,11 +35,13 @@ the following line lengths.
 ### 1.25rem/20px at 34em
 
 ```vue
-<p v-f="4" v-measure.wide>
-  Designers create hierarchy and contrast. Changes in scale
-  help create visual contrast, movement, and depth as well
-  as express hierarchies of importance. 
-</p>
+<template>
+  <p v-f="4" v-measure.wide>
+    Designers create hierarchy and contrast. Changes in scale
+    help create visual contrast, movement, and depth as well
+    as express hierarchies of importance. 
+  </p>
+</template>
 ```
 
 <FourMeasureWide />
@@ -47,11 +49,13 @@ the following line lengths.
 ### 1.25rem/20px at 30em
 
 ```vue
-<p v-f="4" v-measure>
-  Designers create hierarchy and contrast. Changes in scale
-  help create visual contrast, movement, and depth as well
-  as express hierarchies of importance. 
-</p>
+<template>
+  <p v-f="4" v-measure>
+    Designers create hierarchy and contrast. Changes in scale
+    help create visual contrast, movement, and depth as well
+    as express hierarchies of importance. 
+  </p>
+</template>
 ```
 
 <FourMeasure />
@@ -59,11 +63,13 @@ the following line lengths.
 ### 1.25rem (20px) at 20em
 
 ```vue
-<p v-f="4" v-measure.narrow>
-  Designers create hierarchy and contrast. Changes in scale
-  help create visual contrast, movement, and depth as well
-  as express hierarchies of importance. 
-</p>
+<template>
+  <p v-f="4" v-measure.narrow>
+    Designers create hierarchy and contrast. Changes in scale
+    help create visual contrast, movement, and depth as well
+    as express hierarchies of importance. 
+  </p>
+</template>
 ```
 
 <FourMeasureNarrow />
@@ -71,12 +77,14 @@ the following line lengths.
 ### 1rem (16px) at 30em
 
 ```vue
-<p v-f="5" v-measure>
-  Scale is the size of design elements in comparison to other elements
-  in a layout as well as to the physical context of the work. Scale is relative.
-  12-pt type displayed on a 32-inch monitor can look very small, while 12-pt type
-  printed on a book page clook flabby and overweight.
-</p>
+<template>
+  <p v-f="5" v-measure>
+    Scale is the size of design elements in comparison to other elements
+    in a layout as well as to the physical context of the work. Scale is relative.
+    12-pt type displayed on a 32-inch monitor can look very small, while 12-pt type
+    printed on a book page clook flabby and overweight.
+  </p>
+</template>
 ```
 
 <FiveMeasure />
@@ -84,11 +92,13 @@ the following line lengths.
 ### 1rem (16px) at 20em
 
 ```vue
-<p v-f="5" v-measure.narrow>
-  Designers create hierarchy and contrast. Changes in scale
-  help create visual contrast, movement, and depth as well
-  as express hierarchies of importance. 
-</p>
+<template>
+  <p v-f="5" v-measure.narrow>
+    Designers create hierarchy and contrast. Changes in scale
+    help create visual contrast, movement, and depth as well
+    as express hierarchies of importance. 
+  </p>
+</template>
 ```
 
 <FiveMeasureNarrow />
@@ -96,12 +106,14 @@ the following line lengths.
 ### .875rem (14px) at 34em
 
 ```vue
-<p v-f="6" v-measure.wide>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-f="6" v-measure.wide>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <SixMeasureWide />
@@ -109,12 +121,14 @@ the following line lengths.
 ### .875rem (14px) at 30em
 
 ```vue
-<p v-f="6" v-measure>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-f="6" v-measure>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <SixMeasure />
@@ -122,12 +136,14 @@ the following line lengths.
 ### .875rem (14px) at 20em
 
 ```vue
-<p v-f="6" v-measure.narrow>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-f="6" v-measure.narrow>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <SixMeasureNarrow />
@@ -138,11 +154,13 @@ If you want to truncate text that exceeds past a certain width
 you can use the truncate directive combined with a width.
 
 ```vue
-<p v-mw="4" v-truncate>
-  Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-  sed diam nonumy eirmod tempor invidunt ut labore et dolore
-  magna aliquyam erat, sed diam voluptua.
-</p>
+<template>
+  <p v-mw="4" v-truncate>
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+    sed diam nonumy eirmod tempor invidunt ut labore et dolore
+    magna aliquyam erat, sed diam voluptua.
+  </p>
+</template>
 ```
 
 <TruncationExample />

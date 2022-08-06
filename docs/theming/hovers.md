@@ -20,7 +20,11 @@ You can dim any element, including text links on hover and focus
 with the dim class. It will fade the element to an opacity of 50% in 150ms.
 
 ```vue
-<a v-b v-black v-dim v-link href="#">link text</a>
+<template>
+  <a v-b v-black v-dim v-link href="#">
+    link text
+  </a>
+</template>
 ```
 
 <DimText />
@@ -31,10 +35,12 @@ You can dim any element on hover and focus with the dim element.
 Not just text. Here is a card component that will dim on hover.
 
 ```vue
-<a v-db v-dim v-link href="#">
-  <img v-db v-mw.100 alt="SF at night" src="#" />
-  <span>Card title</span>
-</a>
+<template>
+  <a v-db v-dim v-link href="#">
+    <img v-db v-mw.100 alt="SF at night" src="#" />
+    <span>Card title</span>
+  </a>
+</template>
 ```
 
 <DimCard />
@@ -42,11 +48,13 @@ Not just text. Here is a card component that will dim on hover.
 ### Reveal Children on Hover
 
 ```vue
-<a v-link v-dt v-hide-child href="#">
-  <span v-child v-white>
-    Card title
-  </span>
-</a>
+<template>
+  <a v-link v-dt v-hide-child href="#">
+    <span v-child v-white>
+      Card title
+    </span>
+  </a>
+</template>
 ```
 
 <RevealChildren />
@@ -54,9 +62,11 @@ Not just text. Here is a card component that will dim on hover.
 ### Add pointer on Hover
 
 ```vue
-<div v-dim v-pointer>
-  Add pointer on hover to element.
-</div>
+<template>
+  <div v-dim v-pointer>
+    Add pointer on hover to element.
+  </div>
+</template>
 ```
 
 <PointerHover />
@@ -67,9 +77,11 @@ Using the grow class on an element will cause it to scale to 1.05%
 of its normal size on hover.
 
 ```vue
-<a v-grow v-dib href="#">
-  Portfolio Project #11
-</a>
+<template>
+  <a v-grow v-dib href="#">
+    Portfolio Project #11
+  </a>
+</template>
 ```
 
 <GrowOnHover />

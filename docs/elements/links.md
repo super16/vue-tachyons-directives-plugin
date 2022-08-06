@@ -21,9 +21,11 @@ To keep the default underline, but animate the color transition,
 combine classes from skins and skins-pseudo.
 
 ```vue
-<a v-blue v-hover.orange v-link v-underline href="#">
-  link text
-</a>
+<template>
+  <a v-blue v-hover.orange v-link v-underline href="#">
+    link text
+  </a>
+</template>
 ```
 
 <UnderlineLinks />
@@ -33,9 +35,11 @@ combine classes from skins and skins-pseudo.
 To add an underline on hover and focus, use the `v-underline.hover` directive.
 
 ```vue
-<a v-link v-red v-underline.hover href="#">
-  link text
-</a> 
+<template>
+  <a v-link v-red v-underline.hover href="#">
+    link text
+  </a>
+</template> 
 ```
 
 <UnderlineOnHover />
@@ -45,7 +49,9 @@ To add an underline on hover and focus, use the `v-underline.hover` directive.
 To dim a link on hover, add the `v-dim` directive.
 
 ```vue
-<a v-dim href="#">link text</a>
+<template>
+  <a v-dim href="#">link text</a>
+</template>
 ```
 
 <DimOnHover />
@@ -55,9 +61,11 @@ To dim a link on hover, add the `v-dim` directive.
 You can add any background color from the skins-pseudo module.
 
 ```vue
-<a v-black v-hover.bg-light-blue v-link href="#">
-  link text
-</a>
+<template>
+  <a v-black v-hover.bg-light-blue v-link href="#">
+    link text
+  </a>
+</template>
 ```
 
 <BackgroundColorOnHover />
@@ -67,9 +75,11 @@ You can add any background color from the skins-pseudo module.
 You can add any background color from the skins-pseudo module.
 
 ```vue
-<a v-bg.animate v-black v-hover.bg-light-blue v-link href="#">
-  link text
-</a>
+<template>
+  <a v-bg.animate v-black v-hover.bg-light-blue v-link href="#">
+    link text
+  </a>
+</template>
 ```
 
 <AnimateBackgroundColor />

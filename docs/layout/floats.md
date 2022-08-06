@@ -21,7 +21,9 @@ Combine float left/right with width utilities to create fluid multi-column layou
 ### Float Left
 
 ```vue
-<p v-fl>Float Left</p>
+<template>
+  <p v-fl>Float Left</p>
+</template>
 ```
 
 <FloatLeft />
@@ -29,7 +31,9 @@ Combine float left/right with width utilities to create fluid multi-column layou
 ### Float Right
 
 ```vue
-<p v-fr>Float Right</p>
+<template>
+  <p v-fr>Float Right</p>
+</template>
 ```
 
 <FloatRight />
@@ -37,7 +41,9 @@ Combine float left/right with width utilities to create fluid multi-column layou
 ### Float None
 
 ```vue
-<p v-fn>Float None</p>
+<template>
+  <p v-fn>Float None</p>
+</template>
 ```
 
 <FloatNone />
@@ -47,12 +53,14 @@ Combine float left/right with width utilities to create fluid multi-column layou
 Originally floats were used to wrap text around images as in the example below.
 
 ```vue
-<div v-cf>
-  <img v-fl :alt="altText" :src="imgSrc" />
-  <p v-measure>
-    {{ loremIpsum }}
-  </p>
-</div>
+<template>
+  <div v-cf>
+    <img v-fl :alt="altText" :src="imgSrc" />
+    <p v-measure>
+      {{ loremIpsum }}
+    </p>
+  </div>
+</template>
 ```
 
 <ImageExample />

@@ -1,5 +1,7 @@
 <template>
-  <span class="f1 ttu tracked mv4">Title Example</span>
+  <span class="db f1 mv4 tracked ttu">
+    Title Example
+  </span>
 </template>
 
 <script>

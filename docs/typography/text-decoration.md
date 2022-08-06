@@ -14,7 +14,11 @@ or removing the default underlines browsers put on links.
 ### None
 
 ```vue
-<a v-no-underline href="#">no-underline</a>
+<template>
+  <a v-no-underline href="#">
+    no-underline
+  </a>
+</template>
 ```
 
 <NoUnderline />
@@ -22,7 +26,9 @@ or removing the default underlines browsers put on links.
 ### Underline
 
 ```vue
-<p v-underline>underline</p>
+<template>
+  <p v-underline>underline</p>
+</template>
 ```
 
 <UnderlineDecoration />
@@ -30,7 +36,9 @@ or removing the default underlines browsers put on links.
 ### Strikethrough
 
 ```vue
-<p v-strike>strikethrough</p>
+<template>
+  <p v-strike>strikethrough</p>
+</template>
 ```
 
 <StrikethroughDecoration />

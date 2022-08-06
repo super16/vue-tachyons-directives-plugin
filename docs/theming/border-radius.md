@@ -12,7 +12,9 @@ and width will produce a circle.
 ## Examples
 
 ```vue
-<div v-br="0"></div>
+<template>
+  <div v-br="0"></div>
+</template>
 ```
 
 <BorderRadiusExample />
@@ -20,9 +22,11 @@ and width will produce a circle.
 Combine `v-br.100` with a fixed height and width to make a circle.
 
 ```vue
-<div v-dt v-w="4">
-  <div v-br.100></div>
-</div>
+<template>
+  <div v-dt v-w="4">
+    <div v-br.100></div>
+  </div>
+</template>
 ```
 
 <RoundedBorder />

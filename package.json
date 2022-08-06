@@ -6,9 +6,9 @@
   },
   "description": "Plugin for Vue.js 3.x to use Tachyons CSS UI Kit selectors as directives in components.",
   "devDependencies": {
-    "eslint": "^8.12.0",
+    "eslint": "^8.21.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "vitepress": "^0.22.3"
+    "vitepress": "^1.0.0-alpha.4"
   },
   "homepage": "https://github.com/super16/vue-tachyons-directives-plugin",
   "keywords": [

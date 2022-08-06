@@ -10,12 +10,14 @@ for mobile devices.
 ## Example
 
 ```vue
-<form>
-  <label for="inputReset">
-    <code v-f="6" v-db>input-reset</code>
-  </label>
-  <input id="inputReset" v-input-reset type="text">
-</form>
+<template>
+  <form>
+    <label for="inputReset">
+      <code v-f="6" v-db>input-reset</code>
+    </label>
+    <input id="inputReset" v-input-reset type="text">
+  </form>
+</template>
 ```
 
 <InputReset />

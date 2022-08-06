@@ -12,7 +12,9 @@ piece of text. In typography, letter-spacing is commonly known
 as tracking. Text that is set to uppercase should be tracked to
 improve readability.
 
-*Lowercase text should never be tracked.*
+::: tip
+Lowercase text should never be tracked.
+:::
 
 For some larger text, depending on the typeface, a negative
 tracking might be desirable.
@@ -26,7 +28,11 @@ tracking might be desirable.
 ### Tracked
 
 ```vue
-<h1 v-f="1" v-tracked v-ttu>Title Example</h1> 
+<template>
+  <h1 v-f="1" v-tracked v-ttu>
+    Title Example
+  </h1>
+</template> 
 ```
 
 <TrackedText />
@@ -34,7 +40,11 @@ tracking might be desirable.
 ### Tracked Mega
 
 ```vue
-<h1 v-f="1" v-tracked.mega v-ttu>Title Example</h1> 
+<template>
+  <h1 v-f="1" v-tracked.mega v-ttu>
+    Title Example
+  </h1>
+</template> 
 ```
 
 <TrackedMega />
@@ -42,7 +52,11 @@ tracking might be desirable.
 ### Tracked Tight
 
 ```vue
-<h4 v-f="1" v-tracked.tight v-ttu>Title Example</h4> 
+<template>
+  <h4 v-f="1" v-tracked.tight v-ttu>
+    Title Example
+  </h4>
+</template> 
 ```
 
 <TrackedTight />

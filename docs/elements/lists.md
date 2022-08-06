@@ -12,12 +12,14 @@ A simple reset for `list-style-type` to remove the default bullets.
 ### Unordered List
 
 ```vue
-<ul v-list v-pl="0">
-  <li>Apples</li>
-  <li>Oranges</li>
-  <li>Banana</li>
-  <li>Golf balls</li>
-</ul>
+<template>
+  <ul v-list v-pl="0">
+    <li>Apples</li>
+    <li>Oranges</li>
+    <li>Banana</li>
+    <li>Golf balls</li>
+  </ul>
+</template>
 ```
 
 <UnorderedList />
@@ -25,12 +27,14 @@ A simple reset for `list-style-type` to remove the default bullets.
 ### Ordered List
 
 ```vue
-<ol v-list v-pl="0">
-  <li>One</li>
-  <li>Two</li>
-  <li>Three</li>
-  <li>Four</li>
-</ol>
+<template>
+  <ol v-list v-pl="0">
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+    <li>Four</li>
+  </ol>
+</template>
 ```
 
 <OrderedList />

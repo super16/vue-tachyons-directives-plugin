@@ -1,5 +1,7 @@
 <template>
-  <span class="f1 ttu b mv4">Title Example</span>
+  <span class="b db f1 mv4 ttu">
+    Title Example
+  </span>
 </template>
 
 <script>

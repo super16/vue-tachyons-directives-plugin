@@ -39,12 +39,14 @@ for text that doesn’t wrap.
 ### Prose Leading (1.5)
 
 ```vue
-<p v-lh.copy>
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-  nisi ut aliquip ex ea commodo consequat.
-</p>
+<template>
+  <p v-lh.copy>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+    nisi ut aliquip ex ea commodo consequat.
+  </p>
+</template>
 ```
 
 <ProseLeading />
@@ -56,7 +58,11 @@ for text that doesn’t wrap.
 ### Title Leading (1.25)
 
 ```vue
-<h1 v-lh.title>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+<template>
+  <h1 v-lh.title>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  </h1>
+</template>
 ```
 
 <TitleLeading />
@@ -64,7 +70,11 @@ for text that doesn’t wrap.
 ### Solid Leading
 
 ```vue
-<h1 v-lh.solid>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+<template>
+  <h1 v-lh.solid>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  </h1>
+</template>
 ```
 
 <SolidLeading />

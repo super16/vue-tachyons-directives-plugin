@@ -23,7 +23,11 @@ Font-weight should decrease as font-size increases.
 ### Normal
 
 ```vue
-<p v-normal>Font-weight: normal</p>
+<template>
+  <p v-normal>
+    Font-weight: normal
+  </p>
+</template>
 ```
 
 <NormalWeight />
@@ -31,7 +35,9 @@ Font-weight should decrease as font-size increases.
 ### Bold
 
 ```vue
-<p v-b>Font-weight: bold</p>
+<template>
+  <p v-b>Font-weight: bold</p>
+</template>
 ```
 
 <BoldWeight />
@@ -39,15 +45,17 @@ Font-weight should decrease as font-size increases.
 ### Number Values
 
 ```vue
-<p v-fw="1">Font-weight: 100</p>
-<p v-fw="2">Font-weight: 200</p>
-<p v-fw="3">Font-weight: 300</p>
-<p v-fw="4">Font-weight: 400</p>
-<p v-fw="5">Font-weight: 500</p>
-<p v-fw="6">Font-weight: 600</p>
-<p v-fw="7">Font-weight: 700</p>
-<p v-fw="8">Font-weight: 800</p>
-<p v-fw="9">Font-weight: 900</p>
+<template>
+  <p v-fw="1">Font-weight: 100</p>
+  <p v-fw="2">Font-weight: 200</p>
+  <p v-fw="3">Font-weight: 300</p>
+  <p v-fw="4">Font-weight: 400</p>
+  <p v-fw="5">Font-weight: 500</p>
+  <p v-fw="6">Font-weight: 600</p>
+  <p v-fw="7">Font-weight: 700</p>
+  <p v-fw="8">Font-weight: 800</p>
+  <p v-fw="9">Font-weight: 900</p>
+</template>
 ```
 
 <NumberValues />
