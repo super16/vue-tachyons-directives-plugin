@@ -77,6 +77,10 @@ module.exports = {
             link: '/layout/floats',
             text: 'Floats', 
           },
+          {
+            link: '/layout/widths',
+            text: 'Widths', 
+          },
         ],
       },
       {
