@@ -3,7 +3,7 @@
     <img
       alt="Float with Image Example"
       class="fl w4 mr3"
-      src="https://tachyons.io/img/example-1.jpg"
+      src="/small.jpg"
     />
     <p class="measure mt0">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

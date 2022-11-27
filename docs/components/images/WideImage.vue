@@ -1,8 +1,8 @@
 <template>
   <img
-    src="https://tachyons.io/img/over-canvas.jpg"
+    src="/wide.jpg"
     class="w-100 mv4"
-    alt="night sky over land"
+    alt="Wide Size Scenic View of Desert Against Clear Sky"
   >
 </template>
 

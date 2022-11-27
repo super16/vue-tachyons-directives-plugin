@@ -10,7 +10,7 @@
         :alt="`Image with opacity ${opacity}%`"
         :class="`o-${opacity}`"
         class="w-100"
-        src="https://tachyons.io/img/under-canvas.jpg"
+        src="/panoramic.jpg"
       >
     </template>
   </section>

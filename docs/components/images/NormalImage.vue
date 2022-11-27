@@ -1,9 +1,9 @@
 <template>
   <div class="w-two-thirds mv4">
     <img
-      src="https://tachyons.io/img/under-canvas.jpg"
+      src="/narrow.jpg"
       class="mw-100"
-      alt="night sky over water"
+      alt="Narrow Size Scenic View of Desert Against Clear Sky"
     >
   </div>
 </template>
