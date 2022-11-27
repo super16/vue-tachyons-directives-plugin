@@ -8,6 +8,7 @@
   "devDependencies": {
     "eslint": "^8.28.0",
     "eslint-config-airbnb-base": "^15.0.0",
+    "execa": "^6.1.0",
     "vitepress": "^1.0.0-alpha.29"
   },
   "homepage": "https://github.com/super16/vue-tachyons-directives-plugin",
@@ -25,7 +26,8 @@
     "lint": "eslint . --ext .js",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "deploy": "node scripts/gh-pages-deploy.mjs"
   },
   "version": "1.0.0"
 }
