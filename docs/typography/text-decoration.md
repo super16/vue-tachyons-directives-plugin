@@ -9,9 +9,7 @@ import UnderlineDecoration from '../components/text-decoration/UnderlineDecorati
 Utilities for decorating text with underlines,
 or removing the default underlines browsers put on links.
 
-## Examples
-
-### None
+## None
 
 ```vue
 <template>
@@ -23,7 +21,7 @@ or removing the default underlines browsers put on links.
 
 <NoUnderline />
 
-### Underline
+## Underline
 
 ```vue
 <template>
@@ -33,7 +31,7 @@ or removing the default underlines browsers put on links.
 
 <UnderlineDecoration />
 
-### Strikethrough
+## Strikethrough
 
 ```vue
 <template>

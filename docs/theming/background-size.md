@@ -9,9 +9,7 @@ Background-size affects how background images fill their containing elements.
 While measurements can be declared explicitly to size an image, the values
 that seem most reusable are `v-contain` and `v-cover`.
 
-## Examples
-
-### Contain
+## Contain
 
 Directive `v-contain` will make sure that the entire image is displayed
 within the element, regardless of the elements dimensions.
@@ -24,7 +22,7 @@ within the element, regardless of the elements dimensions.
 
 <ContainSize />
 
-### Cover
+## Cover
 
 Directive `v-cover` will make sure the entire element is covered.
 But won’t guarantee that the entire image will be shown.

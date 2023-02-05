@@ -7,9 +7,7 @@ import UnorderedList from '../components/lists/UnorderedList.vue';
 
 A simple reset for `list-style-type` to remove the default bullets. 
 
-## Examples
-
-### Unordered List
+## Unordered List
 
 ```vue
 <template>
@@ -24,7 +22,7 @@ A simple reset for `list-style-type` to remove the default bullets.
 
 <UnorderedList />
 
-### Ordered List
+## Ordered List
 
 ```vue
 <template>

@@ -6,7 +6,7 @@ inside components.
 
 ## Installation
 
-```bash
+```shell
 npm i tachyons github:super16/vue-tachyons-directives-plugin
 ```
 

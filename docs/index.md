@@ -21,13 +21,13 @@ Supported version of Tachyons CSS is **4.12.0**.
 
 ### NPM
 
-```bash
+```sh
 npm i tachyons github:super16/vue-tachyons-directives-plugin
 ```
 
 ### Yarn
 
-```bash
+```sh
 yarn add tachyons github:super16/vue-tachyons-directives-plugin
 ```
 

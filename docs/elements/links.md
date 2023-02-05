@@ -13,9 +13,7 @@ import UnderlineOnHover from '../components/links/UnderlineOnHover.vue';
 Tachyons doesn’t style links by default, but provides the necessary
 classes to generate a wide variety of link styles.
 
-## Examples
-
-### Underline Links and Animate to Color
+## Underline Links and Animate to Color
 
 To keep the default underline, but animate the color transition,
 combine classes from skins and skins-pseudo.
@@ -30,7 +28,7 @@ combine classes from skins and skins-pseudo.
 
 <UnderlineLinks />
 
-### Underline on Hover
+## Underline on Hover
 
 To add an underline on hover and focus, use the `v-underline.hover` directive.
 
@@ -44,7 +42,7 @@ To add an underline on hover and focus, use the `v-underline.hover` directive.
 
 <UnderlineOnHover />
 
-### Dim on Hover
+## Dim on Hover
 
 To dim a link on hover, add the `v-dim` directive.
 
@@ -56,7 +54,7 @@ To dim a link on hover, add the `v-dim` directive.
 
 <DimOnHover />
 
-### Add Background Color on Hover
+## Add Background Color on Hover
 
 You can add any background color from the skins-pseudo module.
 
@@ -70,7 +68,7 @@ You can add any background color from the skins-pseudo module.
 
 <BackgroundColorOnHover />
 
-### Animate Background Color on Hover
+## Animate Background Color on Hover
 
 You can add any background color from the skins-pseudo module.
 
@@ -84,7 +82,7 @@ You can add any background color from the skins-pseudo module.
 
 <AnimateBackgroundColor />
 
-### Colors
+## Colors
 
 Below are examples of combining each color in the skins module
 with the dim class.

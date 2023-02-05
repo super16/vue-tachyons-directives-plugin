@@ -8,9 +8,7 @@ import RegularStyle from '../components/font-style/RegularStyle.vue';
 Single purpose classes to set the font-style of any element
 at any breakpoint.
 
-## Examples
-
-### Italics
+## Italics
 
 Italics can be used to emphasize a piece of content.
 Some common uses of italics include: titles, vehicle names,
@@ -27,7 +25,7 @@ letters of the alphabet, scientific terms, and quotes.
 
 <ItalicsStyle />
 
-### Regular
+## Regular
 
 ```vue
 <template>

@@ -8,9 +8,7 @@ import NearWhiteTable from '../components/tables/NearWhiteTable.vue';
 Tachyons has some basic utilities for styling tables
 that are easy to customize and extend.
 
-## Examples
-
-### Striped | Light Gray
+## Striped | Light Gray
 
 ```vue
 <template>
@@ -25,7 +23,7 @@ that are easy to customize and extend.
 
 <LightGrayTable />
 
-### Striped | Near white
+## Striped | Near white
 
 ```vue
 <template>

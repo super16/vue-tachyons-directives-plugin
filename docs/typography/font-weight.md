@@ -18,9 +18,7 @@ suggests we keep two things in mind when playing
 with font-weight. Use bold weights sparingly.
 Font-weight should decrease as font-size increases.
 
-## Examples
-
-### Normal
+## Normal
 
 ```vue
 <template>
@@ -32,7 +30,7 @@ Font-weight should decrease as font-size increases.
 
 <NormalWeight />
 
-### Bold
+## Bold
 
 ```vue
 <template>
@@ -42,7 +40,7 @@ Font-weight should decrease as font-size increases.
 
 <BoldWeight />
 
-### Number Values
+## Number Values
 
 ```vue
 <template>

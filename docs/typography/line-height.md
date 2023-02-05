@@ -30,13 +30,11 @@ read it. Tachyons provides classes to set text at three common
 line-height values. 1.5 for body copy, 1.25 for titles, and 1
 for text that doesn’t wrap.
 
-## Examples
-
-### Default
+## Default
 
 <DefaultHeight />
 
-### Prose Leading (1.5)
+## Prose Leading (1.5)
 
 ```vue
 <template>
@@ -51,7 +49,7 @@ for text that doesn’t wrap.
 
 <ProseLeading />
 
-### Default Title Leading
+## Default Title Leading
 
 <DefaultTitleLeading />
 
@@ -67,7 +65,7 @@ for text that doesn’t wrap.
 
 <TitleLeading />
 
-### Solid Leading
+## Solid Leading
 
 ```vue
 <template>

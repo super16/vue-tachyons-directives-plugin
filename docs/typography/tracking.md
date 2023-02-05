@@ -19,13 +19,11 @@ Lowercase text should never be tracked.
 For some larger text, depending on the typeface, a negative
 tracking might be desirable.
 
-## Examples
-
-### Default
+## Default
 
 <WithoutTracking />
 
-### Tracked
+## Tracked
 
 ```vue
 <template>
@@ -37,7 +35,7 @@ tracking might be desirable.
 
 <TrackedText />
 
-### Tracked Mega
+## Tracked Mega
 
 ```vue
 <template>
@@ -49,7 +47,7 @@ tracking might be desirable.
 
 <TrackedMega />
 
-### Tracked Tight
+## Tracked Tight
 
 ```vue
 <template>

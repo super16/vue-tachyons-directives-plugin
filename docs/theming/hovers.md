@@ -12,9 +12,7 @@ There are several classes for adding hover effects to elements.
 Hover effects can be used to give visual affordance to the user
 that an element can be interacted with.
 
-## Examples
-
-### Dim Text
+## Dim Text
 
 You can dim any element, including text links on hover and focus
 with the dim class. It will fade the element to an opacity of 50% in 150ms.
@@ -29,7 +27,7 @@ with the dim class. It will fade the element to an opacity of 50% in 150ms.
 
 <DimText />
 
-### Dim Card
+## Dim Card
 
 You can dim any element on hover and focus with the dim element.
 Not just text. Here is a card component that will dim on hover.
@@ -45,7 +43,7 @@ Not just text. Here is a card component that will dim on hover.
 
 <DimCard />
 
-### Reveal Children on Hover
+## Reveal Children on Hover
 
 ```vue
 <template>
@@ -59,7 +57,7 @@ Not just text. Here is a card component that will dim on hover.
 
 <RevealChildren />
 
-### Add pointer on Hover
+## Add pointer on Hover
 
 ```vue
 <template>
@@ -71,7 +69,7 @@ Not just text. Here is a card component that will dim on hover.
 
 <PointerHover />
 
-### Grow on Hover
+## Grow on Hover
 
 Using the grow class on an element will cause it to scale to 1.05%
 of its normal size on hover.

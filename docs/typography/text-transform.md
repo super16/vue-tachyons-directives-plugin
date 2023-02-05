@@ -11,9 +11,7 @@ Use these directives to set the capitalization of text.
 If you use the uppercase directive, don’t forget to combine
 it with a [tracking utility](./tracking.md).
 
-## Examples
-
-### Uppercase
+## Uppercase
 
 ```vue
 <template>
@@ -25,7 +23,7 @@ it with a [tracking utility](./tracking.md).
 
 <UppercaseTransform />
 
-### Lowercase
+## Lowercase
 
 ```vue
 <template>
@@ -35,7 +33,7 @@ it with a [tracking utility](./tracking.md).
 
 <LowercaseTransform />
 
-### Capitalize
+## Capitalize
 
 ```vue
 <template>

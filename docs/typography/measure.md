@@ -30,9 +30,7 @@ the following line lengths.
 * `v-measure.narrow` (~45 characters)
 * `v-measure.wide` (~80 characters)
 
-## Examples
-
-### 1.25rem/20px at 34em
+## 1.25rem/20px at 34em
 
 ```vue
 <template>
@@ -46,7 +44,7 @@ the following line lengths.
 
 <FourMeasureWide />
 
-### 1.25rem/20px at 30em
+## 1.25rem/20px at 30em
 
 ```vue
 <template>
@@ -60,7 +58,7 @@ the following line lengths.
 
 <FourMeasure />
 
-### 1.25rem (20px) at 20em
+## 1.25rem (20px) at 20em
 
 ```vue
 <template>
@@ -74,7 +72,7 @@ the following line lengths.
 
 <FourMeasureNarrow />
 
-### 1rem (16px) at 30em
+## 1rem (16px) at 30em
 
 ```vue
 <template>
@@ -89,7 +87,7 @@ the following line lengths.
 
 <FiveMeasure />
 
-### 1rem (16px) at 20em
+## 1rem (16px) at 20em
 
 ```vue
 <template>
@@ -103,7 +101,7 @@ the following line lengths.
 
 <FiveMeasureNarrow />
 
-### .875rem (14px) at 34em
+## .875rem (14px) at 34em
 
 ```vue
 <template>
@@ -118,7 +116,7 @@ the following line lengths.
 
 <SixMeasureWide />
 
-### .875rem (14px) at 30em
+## .875rem (14px) at 30em
 
 ```vue
 <template>
@@ -133,7 +131,7 @@ the following line lengths.
 
 <SixMeasure />
 
-### .875rem (14px) at 20em
+## .875rem (14px) at 20em
 
 ```vue
 <template>
@@ -148,7 +146,7 @@ the following line lengths.
 
 <SixMeasureNarrow />
 
-### Truncation
+## Truncation
 
 If you want to truncate text that exceeds past a certain width
 you can use the truncate directive combined with a width.

@@ -33,9 +33,7 @@ If you don't have the following fonts at your system, they will fallback to
 system fonts. That's why examples can look alike.
 :::
 
-## Examples
-
-### Default System Sans Serif
+## Default System Sans Serif
 
 ```vue
 <template>
@@ -50,7 +48,7 @@ system fonts. That's why examples can look alike.
 
 <SystemSansSerif />
 
-### Default System Serif
+## Default System Serif
 
 ```vue
 <template>
@@ -65,7 +63,7 @@ system fonts. That's why examples can look alike.
 
 <SystemSerif />
 
-### System Sans Serif with Fallbacks
+## System Sans Serif with Fallbacks
 
 ```vue
 <template>
@@ -80,7 +78,7 @@ system fonts. That's why examples can look alike.
 
 <SansSerif />
 
-### Consolas, monaco
+## Consolas, monaco
 
 ::: info
 Fallbacks to system monospace font.
@@ -99,7 +97,7 @@ Fallbacks to system monospace font.
 
 <MonospaceFont />
 
-### Courier
+## Courier
 
 ::: info
 Fallbacks to system monospace font.
@@ -118,7 +116,7 @@ Fallbacks to system monospace font.
 
 <CourierFont />
 
-### Helvetica
+## Helvetica
 
 ::: info
 Fallbacks to system sans-serif font.
@@ -137,7 +135,7 @@ Fallbacks to system sans-serif font.
 
 <HelveticaFont />
 
-### Avenir
+## Avenir
 
 ::: info
 Fallbacks to system sans-serif font.
@@ -156,7 +154,7 @@ Fallbacks to system sans-serif font.
 
 <AvenirFont />
 
-### Athelas
+## Athelas
 
 ::: info
 Fallbacks to system serif font.
@@ -175,7 +173,7 @@ Fallbacks to system serif font.
 
 <AthelasFont />
 
-### Georgia
+## Georgia
 
 ::: info
 Fallbacks to system serif font.
@@ -194,7 +192,7 @@ Fallbacks to system serif font.
 
 <GeorgiaFont />
 
-### Times
+## Times
 
 ::: info
 Fallbacks to system serif font.
@@ -213,7 +211,7 @@ Fallbacks to system serif font.
 
 <TimesFont />
 
-### Bodoni MT
+## Bodoni MT
 
 ::: info
 Fallbacks to system serif font.
@@ -232,7 +230,7 @@ Fallbacks to system serif font.
 
 <BodoniFont />
 
-### Calisto
+## Calisto
 
 ::: info
 Fallbacks to system serif font.
@@ -251,7 +249,7 @@ Fallbacks to system serif font.
 
 <CalistoFont />
 
-### Garamond
+## Garamond
 
 ::: info
 Fallbacks to system serif font.
@@ -270,7 +268,7 @@ Fallbacks to system serif font.
 
 <GaramondFont />
 
-### Baskerville
+## Baskerville
 
 ::: info
 Fallbacks to system serif font.

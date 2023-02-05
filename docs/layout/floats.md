@@ -16,9 +16,7 @@ There are only three values that can be declared for float: `left`, `right`, or 
 These three base classes are very easy to memorize: `v-fl`, `v-fr`, `v-fn`.
 Combine float left/right with width utilities to create fluid multi-column layouts.
 
-## Examples
-
-### Float Left
+## Float Left
 
 ```vue
 <template>
@@ -28,7 +26,7 @@ Combine float left/right with width utilities to create fluid multi-column layou
 
 <FloatLeft />
 
-### Float Right
+## Float Right
 
 ```vue
 <template>
@@ -38,7 +36,7 @@ Combine float left/right with width utilities to create fluid multi-column layou
 
 <FloatRight />
 
-### Float None
+## Float None
 
 ```vue
 <template>
@@ -48,7 +46,7 @@ Combine float left/right with width utilities to create fluid multi-column layou
 
 <FloatNone />
 
-### Float With Images
+## Float With Images
 
 Originally floats were used to wrap text around images as in the example below.
 
@@ -65,7 +63,7 @@ Originally floats were used to wrap text around images as in the example below.
 
 <ImageExample />
 
-### See Also
+## See Also
 
 * [Clearfix](./clearfix.md)
 

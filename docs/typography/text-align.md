@@ -14,9 +14,7 @@ breakpoints.
 These are simple utilities for setting text-alignment to the left,
 right, or center of an element.
 
-## Examples
-
-### Aligned Left
+## Aligned Left
 
 ```vue
 <template>
@@ -26,7 +24,7 @@ right, or center of an element.
 
 <AlignedLeft />
 
-### Aligned Right
+## Aligned Right
 
 ```vue
 <template>
@@ -36,7 +34,7 @@ right, or center of an element.
 
 <AlignedRight />
 
-### Aligned Center
+## Aligned Center
 
 ```vue
 <template>
@@ -46,7 +44,7 @@ right, or center of an element.
 
 <AlignedCenter />
 
-### Justified Alignment
+## Justified Alignment
 
 ```vue
 <template>

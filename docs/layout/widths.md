@@ -23,13 +23,11 @@ Use `v-w` directive to set the width value.
 </template>
 ```
 
-## Examples
-
-### Width Scale
+## Width Scale
 
 <WidthScale />
 
-### Width Percentages
+## Width Percentages
 
 <WidthPercentages />
 

@@ -9,9 +9,7 @@ When floats are used for layouts—they need a clearfix solution.
 This helps prevent layout problems caused by the elements being
 removed from the block context of the surrounding elements.
 
-## Examples
-
-### Cleared Floats
+## Cleared Floats
 
 This example shows two floated elements wrapped in an element with
 a solid red border. In the top version where the floats are cleared,
@@ -31,7 +29,7 @@ inside another floated element.
 
 <ClearedFloats />
 
-### UnCleared Floats
+## UnCleared Floats
 
 ```vue
 <template>
@@ -44,7 +42,7 @@ inside another floated element.
 
 <UnClearedFloats />
 
-### See Also
+## See Also
 
 * [Floats](./floats.md)
 
