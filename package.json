@@ -1,16 +1,30 @@
 {
   "author": "super16",
-  "browser": "src/index.js",
-  "dependencies": {
-    "tachyons": "^4.12.0"
-  },
   "description": "Plugin for Vue.js 3.x to use Tachyons CSS UI Kit selectors as directives in components.",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/node": "^18.14.0",
+    "@typescript-eslint/parser": "^5.52.0",
     "eslint": "^8.34.0",
     "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "execa": "^7.0.0",
-    "vitepress": "^1.0.0-alpha.46"
+    "tachyons": "^4.12.0",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5",
+    "vite": "^4.1.2",
+    "vitepress": "^1.0.0-alpha.46",
+    "vue": "^3.2.47"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "homepage": "https://github.com/super16/vue-tachyons-directives-plugin",
   "keywords": [
     "css",
@@ -20,14 +34,17 @@
     "vue plugin"
   ],
   "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "name": "vue-tachyons-directives-plugin",
   "repository": "github:super16/vue-tachyons-directives-plugin",
   "scripts": {
-    "lint": "eslint . --ext .js",
+    "build": "tsc && vite build",
+    "lint": "eslint ./src --ext .ts",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:serve": "vitepress serve docs",
-    "deploy": "node scripts/gh-pages-deploy.mjs"
+    "deploy:docs": "node scripts/gh-pages-deploy.mjs"
   },
-  "version": "1.0.0"
+  "version": "0.1.0"
 }

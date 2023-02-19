@@ -1,13 +1,13 @@
 # Vue Tachyons Directives Plugin
 
-Experimental & not-so-smart plugin for Vue.js 3.x to use
+Ridiculously useless plugin for Vue.js 3.x to use
 [Tachyons CSS UI Kit](https://tachyons.io/) selectors as v-directives
 inside components.
 
 ## Installation
 
 ```shell
-npm i tachyons github:super16/vue-tachyons-directives-plugin
+npm i tachyons github:super16/vue-tachyons-directives-plugin#0.1.0
 ```
 
 ## Usage

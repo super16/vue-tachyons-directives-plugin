@@ -5,12 +5,12 @@ import LargeParagraph from './components/LargeParagraph.vue';
 # Vue Tachyons Directives Plugin
 
 Plugin for Vue.js 3.x to use [Tachyons CSS UI Kit](https://tachyons.io/)
-selectors as directives in components. 
+selectors as directives in components.
 
 ::: info
 Directives documentation with examples is not fully ready yet and is under construction.
 
-Checkout finished sections at sidebar on the left. 
+Checkout finished sections at sidebar on the left.
 :::
 
 ::: tip
@@ -22,7 +22,7 @@ Supported version of Tachyons CSS is **4.12.0**.
 ### NPM
 
 ```sh
-npm i tachyons github:super16/vue-tachyons-directives-plugin
+npm i tachyons github:super16/vue-tachyons-directives-plugin#0.1.0
 ```
 
 ### Yarn

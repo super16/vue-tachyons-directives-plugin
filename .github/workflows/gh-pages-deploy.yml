@@ -11,10 +11,10 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
       - name: Install packages
         run: npm i
       - name: Set Creds
         run: git config user.name "Mark" && git config user.email "${{ secrets.EMAIL }}"
       - name: Deploy
-        run: npm run deploy
+        run: npm run deploy:docs

@@ -1,10 +1,12 @@
-import classes from './classes';
+import { App, Plugin } from 'vue';
 
-export default {
-  install(app) {
-    classes.BASES.forEach((element) => {
+import CLASS_NAMES from './classNames';
+
+const VueTachyonsPlugin: Plugin = {
+  install(app: App) {
+    CLASS_NAMES.forEach((element: string) => {
       app.directive(element, (el, binding) => {
-        let className = element;
+        let className: string = element;
         if (element === 'preform') {
           className = 'pre';
         }
@@ -24,3 +26,5 @@ export default {
     });
   },
 };
+
+export default VueTachyonsPlugin;
