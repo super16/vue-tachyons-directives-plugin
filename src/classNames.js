@@ -1,4 +1,4 @@
-const CLASS_NAMES: Readonly<Array<string>> = Object.freeze([
+const CLASS_NAMES = Object.freeze([
   'absolute',
   'aspect-ratio',
   'athelas',

@@ -1,12 +1,10 @@
-import { App, Plugin } from 'vue';
-
 import CLASS_NAMES from './classNames';
 
-const VueTachyonsPlugin: Plugin = {
-  install(app: App) {
-    CLASS_NAMES.forEach((element: string) => {
+const VueTachyonsPlugin = {
+  install(app) {
+    CLASS_NAMES.forEach((element) => {
       app.directive(element, (el, binding) => {
-        let className: string = element;
+        let className = element;
         if (element === 'preform') {
           className = 'pre';
         }
