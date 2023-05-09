@@ -7,7 +7,14 @@ inside components.
 ## Installation
 
 ```shell
-npm i tachyons github:super16/vue-tachyons-directives-plugin#0.1.0
+# npm
+npm i tachyons github:super16/vue-tachyons-directives-plugin
+
+# yarn
+yarn add tachyons github:super16/vue-tachyons-directives-plugin
+
+# pnpm
+pnpm add tachyons github:super16/vue-tachyons-directives-plugin
 ```
 
 ## Usage

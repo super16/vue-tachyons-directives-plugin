@@ -39,5 +39,5 @@
     "docs:serve": "vitepress serve docs",
     "deploy:docs": "node scripts/gh-pages-deploy.mjs"
   },
-  "version": "0.1.0"
+  "version": "0.3.0"
 }
