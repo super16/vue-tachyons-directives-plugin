@@ -12,6 +12,10 @@
     "vitepress": "^1.0.0-alpha.46",
     "vue": "^3.2.47"
   },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
   "exports": {
     ".": "./src/index.js"
   },
@@ -28,6 +32,7 @@
   "name": "vue-tachyons-directives-plugin",
   "repository": "github:super16/vue-tachyons-directives-plugin",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "lint": "eslint ./src --ext .js,.ts",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
